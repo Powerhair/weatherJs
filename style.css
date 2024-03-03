@@ -1,0 +1,78 @@
+p,
+h1 {
+  margin: 0;
+  font-family: "IBM Plex Mono";
+}
+body {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.weather {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.weather__container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.weather__card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.weather__day {
+  font-size: 18px;
+}
+
+.weather__card-current {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: rgb(7, 7, 7);
+}
+
+.weather__temp-current {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.weather__cityname {
+  font-size: 24px;
+}
+
+.sunny {
+  background-image: url(./image/sunny.png);
+}
+.rainy {
+  background-image: url(./image/rainy.png);
+}
+.cloudy {
+  background-image: url(./image/cloudy.png);
+}
+.snowy {
+  background-image: url(./image/snowy.png);
+}
+.thunder {
+  background-image: url(./image/thunder.png);
+}
+
+.foggy {
+  background-image: url(./image/fogy.png);
+}
